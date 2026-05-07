@@ -36,3 +36,9 @@ pre-commit run --all-files
 ```
 
 If using VS Code, open the repo in the dev container for a ready-to-use environment.
+
+## Required repository secrets
+
+Configure the following GitHub Actions secret(s) to enable all automations:
+
+* `RENOVATE_TOKEN`: GitHub token used by `.github/workflows/renovate.yml`

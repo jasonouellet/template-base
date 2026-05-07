@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "timezone": "UTC",
+  "semanticCommits": "enabled",
+  "commitMessagePrefix": "chore(deps): ",
+  "prConcurrentLimit": 5,
+  "automerge": false,
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
+}

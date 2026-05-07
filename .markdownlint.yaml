@@ -1,0 +1,9 @@
+line-length:
+  line_length: 120
+  code_blocks: false
+  tables: false
+ul-style:
+  style: asterisk
+no-trailing-punctuation: false
+fenced-code-language: false
+first-line-heading: false

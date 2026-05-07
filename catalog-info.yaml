@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: template-base
+  description: Base template repository with standards, CI/CD, and governance defaults.
+  annotations:
+    github.com/project-slug: jasonouellet/template-base
+spec:
+  type: template
+  lifecycle: experimental
+  owner: user:default/maintainers
